@@ -1,0 +1,59 @@
+.sliding {
+          position: relative;
+          display: inline-block;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+}         
+
+
+
+ 
+ 
+ .btn {
+           background-color: #120405;
+           color: white;
+           padding: 10px;          
+           font-size: 16px;
+           border: 16px;
+                    
+}
+
+.slidingcontent {           
+                   display: none;
+                   position: absolute;
+                   background-color: #120405;
+                   font-size: 16px;
+                   
+}                   
+
+.slidingcontent a:hover {background-color: #add;}
+
+.sliding:hover .slidingcontent {display: block;}
+
+.sliding:hover .btn {background-color: black;}   
+
+.center {
+        margin-left: auto;
+        margin-right: auto; 
+
+
+
+}
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
